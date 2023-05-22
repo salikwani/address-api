@@ -32,16 +32,19 @@ body {
     color: white;
     padding: 10px;
 }
-#address > div {
+#add {
     border: 2px solid grey;
-    display: flex;
+    display: none;
     flex-flow: row wrap;
     row-gap: 10px;
     padding: 30px 50px;
     font-size: 20px;
 }
-#address > div > p {
+#add > p {
     flex-basis: 50%;
+}
+#add > h1 {
+    flex-basis: 80%;
 }
 input {
     width: 80%;
